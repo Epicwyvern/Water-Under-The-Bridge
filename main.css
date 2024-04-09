@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "HamletOrNot";
+    src: url("Images/HamletOrNot.ttf");
+}
+
+.pointer, .pointer2, .pointer3 {
+    cursor: url("Images/pointer.png"), pointer;
+}
+
+body, html {
+    height: 100%;
+    margin: 0px;
+    cursor: url("Images/pointer.png"), auto;
+    overflow: hidden;
+}
+
+.bgimg {
+    position: relative;
+}
+
+.image {
+    width: 2525px;
+    height: 1345px;
+}
+
+
+p {
+    font-family: "HamletOrNot";
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.5vw;
+    -webkit-text-stroke: 0.05vw black;
+}
+
+.message {
+    position: absolute;
+    bottom: 0.4vw;
+    right: 0.5vw;
+    color: white;
+    opacity: 0;
+    margin: 0px;
+}
+
+.bgimg:hover .message{
+    opacity: 1;
+}
+
+polygon:hover {
+    stroke: hsl(46, 80%, 50%);
+    stroke-width: 2px;
+    opacity: 0.15;
+    fill: white;
+}
+
+.fancybox-slide--iframe .fancybox-content {
+    max-width: 40vw;
+    min-height: 100%;
+}

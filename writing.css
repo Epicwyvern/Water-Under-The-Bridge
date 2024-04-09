@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "HamletOrNot";
+    src: url("Images/HamletOrNot.ttf");
+}
+
+body, html {
+    height: 100%;
+    margin: 0px;
+    cursor: url("Images/pointer2.png"), auto;
+    /* overflow: hidden; */
+}
+
+.bgimg {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 110%;
+    position: absolute;
+    background-image: url("Images/parchment.png");
+}
+
+.boximage {
+    padding: 0px;
+    margin-top: 5vw;
+    margin-left: 20vw;
+    max-width: 60vw;
+    max-height: 35vh;
+    position: absolute;
+    cursor: url("Images/pointer.png"), auto;
+}
+
+p {
+    font-size: 2.1vw;
+    font-family: "HamletOrNot";
+    max-width: 80vw;
+    margin-left: 10vw;
+    text-align: justify;
+}
+
+.text{margin-top: 45vh;}
+#thoughts {color: hsla(36, 22%, 22%, 1);}
+#words {color: rgb(142, 88, 7);}
+
+.fancybox-close {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 8040;
+}

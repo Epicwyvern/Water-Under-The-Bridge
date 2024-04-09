@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="Scripts/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+
+        <link href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" rel="stylesheet" />
+
+        <title>Water Under The Bridge</title>
+        <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="bgimg">
+            <svg viewBox="0 0 2525 1420" width="100%" height="100%">
+                <image x="0" y="0" width="100%" height="100%" xlink:href="Images/A-trolls-village-cabin-room3.png" />
+
+                <polygon class="pointer" href="window.html" alt="window" points="265,96, 627,105, 635,645, 260,673" fill="transparent" stroke-miterlimit="10" 
+                onmouseover="writeText('The sun should be setting soon.')" onmouseleave="writeText('')"/>
+
+                <polygon class="pointer2" href="Images/diary1.png" data-fancybox="gallery-diary" alt="diary" points="178,924, 526,883, 664,906, 665,979, 732,992, 739,1082, 322,1147, 182,1103" fill="transparent" stroke-miterlimit="10" 
+                onmouseover="writeText('It\'s been a while since I\'ve looked at me diary.')" onmouseleave="writeText('')"/>
+
+                <polygon class="pointer2" href="Images/diary2.png" data-fancybox="gallery-diary" alt="diary2" points=""/>
+                <polygon class="pointer2" href="Images/diary3.png" data-fancybox="gallery-diary" alt="diary3" points=""/>
+
+                <polygon class="pointer" href="map.html" alt="map" points="390,1174, 714,1322, 1640,1170, 1216,1085, 1052,1086" fill="transparent" stroke-miterlimit="10"
+                 onmouseover="writeText('Faldor wanted me to go to Steckelburg for those herbs...')" onmouseleave="writeText('')"/>
+
+                <polygon class="pointer" href="mirror.html" alt="mirror" points="1144,81, 1144,679, 1402,679, 1402,81" fill="transparent" stroke-miterlimit="10"
+                onmouseover="writeText('I must look rough after all the work these past days.')" onmouseleave="writeText('')"/>
+
+                <polygon class="pointer" href="painting.html" alt="painting" points="1860,240, 1860,659, 2287,677, 2282,225" fill="transparent" stroke-miterlimit="10"
+                onmouseover="writeText('I still remember that day...')" onmouseleave="writeText('')"/>
+
+                <polygon class="pointer" href="writing.html" alt="writing" points="2365,360, 2526,356, 2526,629, 2369,621" fill="transparent" stroke-miterlimit="10"
+                onmouseover="writeText('Even me thoughts are in the common tongue now...')" onmouseleave="writeText('')"/>
+
+                <polygon class="pointer2" href="Images/letter.png" alt="letter" points="1687,895, 1880,827, 1996,865, 1830,930" fill="transparent" stroke-miterlimit="10"
+                onmouseover="writeText('Ah, mayhaps I should wrap that letter up.')" onmouseleave="writeText('')"/>
+
+                <polygon class="pointer" href="history.html" alt="history" points="2170,896, 2306,872, 2465,895, 2467,949, 2342,974, 2173,947" fill="transparent" stroke-miterlimit="10"
+                onmouseover="writeText('The Tröllaslagur... many pages of it are missing.')" onmouseleave="writeText('')"/>
+              </svg>
+            <div class ="message"> 
+                <p id ="desc"></p>
+            </div>
+        </div>
+        <script src="Scripts/fancyboxLoader.js"></script>
+    </body>
+</html>

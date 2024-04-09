@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "HamletOrNot";
+    src: url("Images/HamletOrNot.ttf");
+
+    font-family: "Varna";
+    src: url("Images/Varna-Regular.otf");
+
+    font-family: "Chomsky";
+    src: url("Images/Chomsky.otf");
+}
+
+body, html {
+    height: 100%;
+    margin: 0px;
+    cursor: url("Images/pointer2.png"), auto;
+    /* overflow: hidden; */
+}
+
+.bgimg {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 220%;
+    position: absolute;
+    background-image: url("Images/parchment.png");
+}
+
+h1 {
+    font-size: 4vw;
+    font-family: "HamletOrNot";
+    text-align: center;
+}
+
+.poem {
+    font-size: 2.3vw;
+    font-family: "Varna";
+    text-align: center;
+}
+
+p {
+    font-size: 2.1vw;
+    font-family: "HamletOrNot";
+    max-width: 80vw;
+    margin-left: 10vw;
+    text-align: justify;
+}
+
+.text{margin-top: 45vh;}
+.writing2 {font-family: "Chomsky";}
+.writing {font-family: "Chomsky"; font-size: 2.4vw;}
+#thoughts {color: hsla(36, 22%, 22%, 1);}
+#words {color: rgb(142, 88, 7);}
+
+.fancybox-close {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 8040;
+}
