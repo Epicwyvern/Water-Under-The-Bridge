@@ -60,3 +60,7 @@ p {
     cursor: pointer;
     z-index: 8040;
 }
+
+.fancybox-content {
+    height: 100%;
+}
