@@ -56,3 +56,5 @@ polygon:hover {
     max-width: 40vw;
     min-height: 100%;
 }
+
+iframe: {preload: false}
