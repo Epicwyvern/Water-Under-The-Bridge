@@ -3,10 +3,10 @@
     src: url("Images/HamletOrNot.ttf");
 
     font-family: "Varna";
-    src: url("Images/Varna-Regular.otf");
+    src: url("Images/Varna.otf") format('opentype'); 
 
     font-family: "Chomsky";
-    src: url("Images/Chomsky.otf");
+    src: url("Images/Chomsky.otf") format('opentype');
 }
 
 body, html {
