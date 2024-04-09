@@ -1,6 +1,9 @@
 $(document).ready(function(){
 
     $(".pointer").fancybox({
+        iframe: {
+            preload: false
+        },
         'width'         : '75%',
         'height'        : '75%',
         'autoScale'     : false,
