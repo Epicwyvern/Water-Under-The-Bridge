@@ -1,10 +1,15 @@
 @font-face {
     font-family: "HamletOrNot";
     src: url("Images/HamletOrNot.ttf");
+}
 
+@font-face {
     font-family: "Varna";
     src: url("Images/Varna.otf") format('opentype'); 
+}
 
+
+@font-face {
     font-family: "Chomsky";
     src: url("Images/Chomsky.otf") format('opentype');
 }
