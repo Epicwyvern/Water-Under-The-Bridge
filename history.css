@@ -1,12 +1,12 @@
 @font-face {
     font-family: "HamletOrNot";
-    src: url("Images/HamletOrNot.ttf");
+    src: url("/Images/HamletOrNot.ttf");
 
     font-family: "Varna";
-    src: url("Images/Varna-Regular.otf");
+    src: url("/Images/Varna-Regular.otf");
 
     font-family: "Chomsky";
-    src: url("Images/Chomsky.otf");
+    src: url("/Images/Chomsky.otf");
 }
 
 body, html {
